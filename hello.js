@@ -18,8 +18,12 @@ const appleInfo =
  {name:"apple",
   age:33,
   gender:"Male",
-  adress:"Seoul"};
+  adress:"Seoul",
+favmovie:["diehard1", "metrix2"],
+favfood:[{name:"kimchi", redcolor:true},
+ {name:"coffee", redcolor:false}]
+ };
 
 
 
-console.log(appleInfo.adress);
+console.log(appleInfo.favfood);
